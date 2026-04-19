@@ -6,7 +6,7 @@
 
 ## Ejercicio 1 — Análisis Estadístico Descriptivo
 ---
-Se ha realizado un análisis estadístico descriptivo completo sobre el dataset “Diamonds Prices 2022” de Kaggle, utilizando `price` como variable objetivo. Tras eliminar la columna índice sobrante (`Unnamed: 0`), el conjunto final quedó compuesto por 53.943 observaciones y 10 variables útiles, con 7 variables numéricas (`carat`, `depth`, `table`, `price`, `x`, `y`, `z`) y 3 categóricas (`cut`, `color`, `clarity`).
+Se ha realizado un análisis estadístico descriptivo completo sobre el dataset “Diamonds Prices 2022” de Kaggle, utilizando `price` como variable objetivo. Tras eliminar la columna índice sobrante (`Unnamed: 0`), el conjunto final quedó compuesto por 53.943 observaciones y 10 variables útiles, con 7 variables numéricas (`carat`, `depth`, `table`, `price`, `x`, `y`, `z`) y 3 categóricas (`cut`, `color`, `clarity`). enlace: https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices
 
 El análisis estructural mostró que no existen valores nulos en ninguna columna, por lo que no fue necesario aplicar imputación ni eliminación de registros por ausencia de datos. En las variables numéricas se observaron distribuciones diferentes: `price` y `carat` presentaron asimetría positiva, mientras que `depth` y `table` mostraron distribuciones más compactas. Además, en `x`, `y` y `z` aparecieron valores extremos y algunos mínimos iguales a 0, lo que sugiere posibles anomalías en dimensiones físicas.
 
