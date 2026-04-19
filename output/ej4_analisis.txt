@@ -1,0 +1,17 @@
+EJERCICIO 4 — ANÁLISIS DEL RESIDUO
+==================================================
+Media: 0.127078
+Desviación típica: 3.222043
+Asimetría: -0.050917
+Curtosis: -0.061028
+
+Test Jarque-Bera (normalidad)
+Estadístico JB: 1.101349
+p-value JB: 0.576561
+
+Test ADF (estacionariedad)
+Estadístico ADF: -39.916048
+p-value ADF: 0.000000
+
+Conclusión normalidad: no se rechaza la normalidad.
+Conclusión ADF: el residuo es estacionario.
