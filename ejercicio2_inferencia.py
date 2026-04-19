@@ -250,3 +250,18 @@ if __name__ == "__main__":
 
     print("\nTop 10 variables más influyentes (por valor absoluto del coeficiente):")
     print(coef_df.head(10)[["variable", "coeficiente"]].round(4))
+
+    # 9. Gráfico de coeficientes más influyentes
+    top_coef = coef_df.head(10).copy()
+    top_coef = top_coef.sort_values("coeficiente")
+    
+    plt.figure(figsize=(10, 6))
+    plt.barh(top_coef["variable"], top_coef["coeficiente"])
+    plt.xlabel("Coeficiente")
+    plt.ylabel("Variable")
+    plt.title("Top 10 coeficientes más influyentes")
+    plt.tight_layout()
+    plt.savefig("output/ej2_coeficientes.png", dpi=150, bbox_inches="tight")
+    plt.close()
+    
+    print("output/ej2_coeficientes.png")
